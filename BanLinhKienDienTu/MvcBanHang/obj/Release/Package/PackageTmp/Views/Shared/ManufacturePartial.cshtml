@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MvcBanHang.Models.hangsanxuat>
+
+<li>
+    <h4>Hãng Sản Xuất</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="~/Manufacture/ManufactureByID/@item.mahsx">@item.tenhsx</a>
+            </li>
+        } 
+    </ul>
+</li>

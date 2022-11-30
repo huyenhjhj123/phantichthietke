@@ -1,0 +1,46 @@
+﻿@model MvcBanHang.ViewModel.LogOnModel
+
+@{
+    ViewBag.Title = "Dangnhap";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)    
+    
+    <h3>Đăng Nhập</h3>
+    <div id="dangnhap">
+        <div>
+            Tên đăng nhập
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tenDN)
+            @Html.ValidationMessageFor(model => model.tenDN)
+        </div>
+
+        <div>
+            Mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.matkhau)
+            @Html.ValidationMessageFor(model => model.matkhau)
+        </div>
+
+        <div>
+            Ghi nhớ
+        </div>
+        <div>
+            @Html.EditorFor(model => model.RememberMe)
+            @Html.ValidationMessageFor(model => model.RememberMe)
+        </div>
+
+        <p class="dangnhap">
+            <input class="btn_dangnhap" type="submit" value="Đăng Nhập" />
+        </p>
+
+        <p>Bạn chưa có tài khoản? @Html.ActionLink("Đăng ký", "Register")</p>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

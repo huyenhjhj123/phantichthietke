@@ -1,0 +1,114 @@
+﻿@model MvcBanHang.Models.sanpham
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+  
+    <h3>Thêm Sản Phẩm</h3> 
+    <div id="themsp">
+        <div>
+            Tên sản phẩm
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tensp)
+            @Html.ValidationMessageFor(model => model.tensp)
+        </div>
+
+        <div>
+            Mô tả
+        </div>
+        <div>
+            @Html.TextAreaFor(model => model.mota)
+            @Html.ValidationMessageFor(model => model.mota)
+        </div>
+
+        <div>
+            Kích cỡ
+        </div>
+        <div>
+            @Html.EditorFor(model => model.kichco)
+            @Html.ValidationMessageFor(model => model.kichco)
+        </div>
+
+        <div>
+            Giá
+        </div>
+        <div>
+            @Html.EditorFor(model => model.dongia)
+            @Html.ValidationMessageFor(model => model.dongia)
+        </div>
+
+        <div>
+            Hình sản phẩm
+        </div>
+
+        <label for="file">Filename:</label>
+        <input type="file" name="file" id="file" />
+
+        <div>
+            @Html.LabelFor(model => model.maloai, "Loại")
+        </div>
+        <div>
+            @Html.DropDownList("maloai", String.Empty)
+            @Html.ValidationMessageFor(model => model.maloai)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.macn, "Công nghệ")
+        </div>
+        <div>
+            @Html.DropDownList("macn", String.Empty)
+            @Html.ValidationMessageFor(model => model.macn)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.madl, "Dung lượng")
+        </div>
+        <div>
+            @Html.DropDownList("madl", String.Empty)
+            @Html.ValidationMessageFor(model => model.madl)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.mancc, "Nhà cung cấp")
+        </div>
+        <div>
+            @Html.DropDownList("mancc", String.Empty)
+            @Html.ValidationMessageFor(model => model.mancc)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.mahsx, "Hãng sản xuất")
+        </div>
+        <div>
+            @Html.DropDownList("mahsx", String.Empty)
+            @Html.ValidationMessageFor(model => model.mahsx)
+        </div>
+
+        <div>
+            Số lượng
+        </div>
+        <div>
+            @Html.EditorFor(model => model.soluong)
+            @Html.ValidationMessageFor(model => model.soluong)
+        </div>
+
+        <p class="themsp">
+            <input class="btn_taosanpham" type="submit" value="Tạo Sản Phẩm" />
+        </p>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về trang chủ", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

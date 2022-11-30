@@ -1,0 +1,75 @@
+﻿@model MvcBanHang.Models.sanpham
+@Scripts.Render("~/bundles/jqueryval")
+
+@using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+        <h3>Sửa Sản Phẩm</h3>
+    <div id="suasp">
+        <input type="hidden" name="masp" value="@Model.masp" />
+
+        <div>
+            Tên sản phẩm
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tensp)
+            @Html.ValidationMessageFor(model => model.tensp)
+        </div>
+
+        <div>
+            Loại sản phẩm
+        </div>
+        <div>
+            @Html.DropDownList("maloai", String.Empty)
+            @Html.ValidationMessageFor(model => model.maloai)
+        </div>
+
+        <div>
+            Nhà cung cấp
+        </div>
+        <div>
+            @Html.DropDownList("mancc", String.Empty)
+            @Html.ValidationMessageFor(model => model.mancc)
+        </div>
+
+        <div>
+            Hãng sản xuất
+        </div>
+        <div>
+            @Html.DropDownList("mahsx", String.Empty)
+            @Html.ValidationMessageFor(model => model.mahsx)
+        </div>
+
+        <div>
+            Giá
+        </div>
+        <div>
+            <input type="text" required name="dongia" value="@string.Format("{0:0}", Model.dongia)" />
+
+            @Html.ValidationMessageFor(model => model.dongia)
+        </div>
+
+        <div>
+            Hình sản phẩm
+        </div>
+
+        <label for="file">Filename:</label>
+        <input type="file" name="file" id="file" />
+
+        <div>
+            Mô tả
+        </div>
+        <div>
+            @Html.TextAreaFor(model => model.mota)
+            @Html.ValidationMessageFor(model => model.mota)
+        </div>
+        <p class="suasp">
+            <input class="btn_suasp" type="submit" value="Lưu Lại" />
+        </p>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về trang chủ", "Index")
+</div>

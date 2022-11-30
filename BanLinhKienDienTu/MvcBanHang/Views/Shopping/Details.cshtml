@@ -1,0 +1,54 @@
+﻿@model MvcBanHang.Models.donhang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<h3>Đơn đặt hàng</h3>
+<h4 style="margin-bottom: 10px">Thông tin khách hàng</h4>
+<table>
+    <tr>
+        <td>Tên người nhận : @Model.tennguoinhan</td>
+    </tr>
+    <tr>
+        <td>Điện thoại : @Model.dienthoainhan</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ : @Model.diachinhan</td>
+    </tr>
+</table>
+
+<h4 style="margin-bottom: 10px">Chi tiết đơn hàng</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Sản Phẩm</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Thành Tiền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var Total = Model.chitiet_donhang.Sum(m => m.sanpham.dongia * m.soluong);
+        }
+        @foreach (var item in Model.chitiet_donhang)
+        {
+            var SubTotal = item.soluong * item.sanpham.dongia;
+            <tr>
+                <td>@item.sanpham.tensp</td>
+                <td>@string.Format("{0:0,0 VNĐ}", item.sanpham.dongia).Replace(",", ".")</td>
+                <td>@item.soluong</td>
+                <td>@string.Format("{0:0,0 VNĐ}", SubTotal).Replace(",", ".")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div style="border-top: solid 1px #000; margin: 10px; padding: 10px; font-size: 20px; font-weight: bold;">
+    <p style="margin-left: 300px;">
+        Tổng Tiền : @string.Format("{0:0,0 VNĐ}", @Total).Replace(",", ".")
+    </p>
+</div>
+<p class="back2">
+    <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+</p>

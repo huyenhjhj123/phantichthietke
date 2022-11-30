@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MvcBanHang.Models.donhang>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('.RemoveLink').click(function () {
+            var x = $(this).attr("data-id");
+            if (confirm("Bạn muốn xóa đơn hàng này?")) {
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Delete", "Order")',
+                    data: { id: x }
+                });
+                $("#row-" + x).remove();
+            }
+        })
+    })   
+</script>
+<h3>Quản lý đơn hàng</h3>
+<table>
+    <tr>
+        <th>
+            Tên người nhận
+        </th>
+        <th>
+            Điện thoại
+        </th>
+        <th>
+            Địa chỉ
+        </th>
+        <th></th>
+    </tr>
+@foreach (var item in Model) {
+    <tr id="row-@item.madh">
+        <td>
+            @Html.DisplayFor(modelItem => item.tennguoinhan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dienthoainhan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.diachinhan)
+        </td>
+        <td>           
+            @Html.ActionLink("Chi tiết", "Details", new { id=item.madh }) |
+             <a href="#" class="RemoveLink" data-id="@item.madh">Xóa</a>
+        </td>
+    </tr>
+}
+</table>
+<p class="back2">
+    <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+</p>

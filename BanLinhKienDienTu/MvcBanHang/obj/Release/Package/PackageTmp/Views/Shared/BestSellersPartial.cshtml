@@ -1,0 +1,38 @@
+﻿@helper Truncate(string input, int length)
+{
+    if (input.Length <= length)
+    {
+    @input
+    }
+    else
+    {
+    @input.Substring(0, length)<text>...</text>
+    }
+}
+
+@model MvcBanHang.ViewModel.ProductViewModel
+
+<div class="cl">&nbsp;</div>
+<!-- Best-sellers -->
+<div id="best-sellers">
+    <h3>Sản phẩm nổi bật</h3>
+    <ul>
+        @foreach (var item in Model.sanphams.Take(Model.soluongsp))
+        {
+            <li>
+                <div class="product">
+                    <a href="~/Product/Details/@item.masp" class="info">
+                        <span class="holder">
+                            <img src="@Url.Content("~/Content/Sanpham/" + @item.hinhsp)" alt="" />
+                            <span class="book-name">@Truncate(item.tensp, 11)</span>
+                            <span class="price">@string.Format("{0:0,0 VNĐ}", item.dongia).Replace(",", ".")</span>
+                        </span>
+                    </a>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
+
+<!-- End Best-sellers -->
+

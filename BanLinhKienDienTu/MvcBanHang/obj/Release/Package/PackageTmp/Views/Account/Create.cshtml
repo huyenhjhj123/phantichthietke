@@ -1,0 +1,49 @@
+﻿@model MvcBanHang.ViewModel.UserModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    
+    <h3>Tạo Admin</h3>
+    <div id="taoadmin">
+        <div>
+            Tên đăng nhập
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tenDN)
+            @Html.ValidationMessageFor(model => model.tenDN)
+        </div>
+
+        <div>
+            Mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.matkhau)
+            @Html.ValidationMessageFor(model => model.matkhau)
+        </div>
+
+        <div>
+            Xác nhận mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.ConfirmPassword)
+            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+        </div>
+
+        <p class="taoadmin">
+            <input class="btn_taoadmin" type="submit" value="Tạo Mới Tài Khoản" />
+        </p>
+    </div>
+}
+<p class="back2">
+    <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

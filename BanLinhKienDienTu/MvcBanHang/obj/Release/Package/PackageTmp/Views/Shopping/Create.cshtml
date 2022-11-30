@@ -1,0 +1,74 @@
+﻿@model MvcBanHang.Models.donhang
+@using MvcBanHang.ViewModel
+@{
+    ViewBag.Title = "CreateOrder";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<h3>Đặt hàng</h3>
+
+@if (Session["Cart"] != null)
+{
+    var _CartSession = (List<CartViewModel>)Session["Cart"];
+    var Total = _CartSession.Sum(m => m.Product.dongia * m.Quantity);
+    <table>
+        <thead>
+            <tr>
+                <th>Sản Phẩm</th>
+                <th>Đơn Giá</th>
+                <th>Số Lượng</th>
+                <th>Thành Tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in _CartSession)
+            {
+                var SubTotal = item.Quantity * item.Product.dongia;
+                <tr>
+                    <td>@item.Product.tensp</td>
+                    <td>@string.Format("{0:0,0 VNĐ}", item.Product.dongia).Replace(",", ".")</td>
+                    <td>@item.Quantity</td>
+                    <td>@string.Format("{0:0,0 VNĐ}", SubTotal).Replace(",", ".")</td>
+                </tr>
+            }
+        </tbody>
+    </table>     
+    <div class="tongtien">
+        Tổng Tiền : @string.Format("{0:0,0 VNĐ}", @Total).Replace(",", ".")
+    </div> 
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    
+    <h4>Thông tin khách hàng</h4>
+    <div id="dathang">
+        <div class="editor-label">
+            Tên người nhận
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.tennguoinhan)
+            @Html.ValidationMessageFor(model => model.tennguoinhan)
+        </div>
+        <div class="editor-label">
+            Điện thoại
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dienthoainhan)
+            @Html.ValidationMessageFor(model => model.dienthoainhan)
+        </div>
+        <div class="editor-label">
+            Địa chỉ
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.diachinhan)
+            @Html.ValidationMessageFor(model => model.diachinhan)
+        </div>
+        <p>
+            <input class="btn_dathang" type="submit" value="Gửi Đơn Đặt Hàng" />
+        </p>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

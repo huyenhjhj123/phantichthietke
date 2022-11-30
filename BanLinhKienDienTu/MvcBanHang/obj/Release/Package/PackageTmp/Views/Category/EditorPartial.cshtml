@@ -1,0 +1,25 @@
+﻿@model MvcBanHang.Models.loai
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")   
+}
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    
+        <h3>Loại Sản Phẩm</h3>
+    <div id="loai">
+        <div>
+            Tên loại
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tenloai)
+            @Html.ValidationMessageFor(model => model.tenloai)
+        </div>
+
+        <p class="loai">
+            <input class="btn_loai" type="submit" value="Lưu lại " />
+        </p>
+    </div>
+}
+
+

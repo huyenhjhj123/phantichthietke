@@ -1,0 +1,93 @@
+﻿
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.header {
+    background: #fff;
+    margin-top: 5px;
+    text-align:center;
+}
+
+    .header, .header a {
+        color: #000;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+.header1 {
+    background: #4f86f8;
+    padding: 3px;
+}
+
+    .header1, .header1 a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+.header2 {
+    background: #4f86f8;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+    .header2, .header2 a {
+        color: #fff;
+        font-size: 16px;
+    }
+
+.textHeader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #253dfc;
+    padding: 10px 0px;
+}
+
+.linkButton {
+    background: #4f86f8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px 0px 5px;
+    border-radius: 5px;
+}
+
+.linkButton1 {
+    background: #4f86f8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+.linkButton2 {
+    background: #4f86f8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+.field-validation-valid {
+    display: none;
+}

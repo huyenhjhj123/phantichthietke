@@ -1,0 +1,35 @@
+﻿@helper Truncate(string input, int length)
+{
+    if (input.Length <= length)
+    {
+    @input
+    }
+    else
+    {
+    @input.Substring(0, length)<text>...</text>
+    }
+}
+
+@using MvcBanHang.ViewModel
+
+@{
+    ViewBag.Title = "CategoryByID";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<script>
+    function XoaSanPham(id) {
+        if (confirm("Bạn muốn xóa sản phẩm này ?")) {
+            $.post('@Url.Action("Delete", "Product")', { id: id },
+                    function (data) {
+                        if (data.Status == "1") {
+                            $("#row-" + id).remove();
+                        }
+                    });
+        }
+        return false;
+    };
+</script>
+
+<h3>@ViewBag.Tenloai</h3>
+@Html.Partial("ShowPartial", new ProductViewModel() { soluongsp=20, sanphams=@Model })

@@ -1,0 +1,45 @@
+﻿@model MvcBanHang.ViewModel.ChangePassModel
+
+@{
+    ViewBag.Title = "ChangePass";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <h3>Thay Đổi Mật Khẩu</h3>
+    <div id="doipass">
+        <div>
+            Mật khẩu hiện tại
+        </div>
+        <div>
+            @Html.EditorFor(model => model.OldPassword)
+            @Html.ValidationMessageFor(model => model.OldPassword)
+        </div>
+        <div>
+            Mật khẩu mới
+        </div>
+        <div>
+            @Html.EditorFor(model => model.NewPassword)
+            @Html.ValidationMessageFor(model => model.NewPassword)
+        </div>
+
+        <div>
+            Xác nhận mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.ConfirmPassword)
+            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+        </div>
+        <p class="doipass">
+            <input class="btn_doipass" type="submit" value="Lưu lại" />
+        </p>
+    </div>
+}
+<p class="back2">
+    <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+</p>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

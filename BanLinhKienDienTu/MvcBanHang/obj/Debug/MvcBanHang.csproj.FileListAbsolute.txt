@@ -1,0 +1,669 @@
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (11h35 6-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h35 7-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h 8-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (2h40 8-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (9h45 8-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (0h30 10-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 15-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (19h 16-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (23h 16-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\as\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (12h 17-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (18h 18-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (07h45 19-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (10h 19-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (15h 20-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (02h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\EntityFramework.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\WebGrease.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\EntityFramework.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.csprojResolveAssemblyReference.cache
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\NgocTuan\Desktop\MvcBanHang (03h30 21-7)\MvcBanHang\obj\Debug\MvcBanHang.pdb
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll.config
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\MvcBanHang.pdb
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\Antlr3.Runtime.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\EntityFramework.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Http.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Optimization.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Providers.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Razor.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\WebGrease.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\EntityFramework.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Http.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.Razor.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.AssemblyReference.cache
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CoreCompileInputs.cache
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CopyComplete
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.dll
+D:\hoc\tkw\Website ban linh kien dien tu (hay)\Website ban linh kien dien tu (hay)\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.pdb
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll.config
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.pdb
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Antlr3.Runtime.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\EntityFramework.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Optimization.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Providers.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Razor.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\WebGrease.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\EntityFramework.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Razor.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.AssemblyReference.cache
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CoreCompileInputs.cache
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CopyComplete
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.dll
+D:\bai tap web\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.pdb
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll.config
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\MvcBanHang.pdb
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Antlr3.Runtime.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\EntityFramework.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Optimization.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Providers.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Razor.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\WebGrease.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\EntityFramework.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\Newtonsoft.Json.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Net.Http.Formatting.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Http.WebHost.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Mvc.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.Razor.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.AssemblyReference.cache
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CoreCompileInputs.cache
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.csproj.CopyComplete
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.dll
+D:\hoc\KTGK\KTGK\MvcBanHang\MvcBanHang\obj\Debug\MvcBanHang.pdb
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\MvcBanHang.dll.config
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\MvcBanHang.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\MvcBanHang.pdb
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\Antlr3.Runtime.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\EntityFramework.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\Newtonsoft.Json.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Net.Http.Formatting.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Http.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Http.WebHost.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Mvc.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Optimization.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Providers.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Razor.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\WebGrease.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\EntityFramework.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\Newtonsoft.Json.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Net.Http.Formatting.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Http.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Http.WebHost.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Mvc.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.Razor.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\obj\Debug\MvcBanHang.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\obj\Debug\MvcBanHang.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\obj\Debug\MvcBanHang.csproj.CopyComplete
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\obj\Debug\MvcBanHang.dll
+C:\Users\ADMIN\Downloads\BanLinhKienDienTu\2024801030035_NguyenVInhHung_BanLinhKienDienTu\MvcBanHang\obj\Debug\MvcBanHang.pdb

@@ -1,0 +1,87 @@
+﻿@model MvcBanHang.ViewModel.UserModel
+
+@{
+    ViewBag.Title = "Dangky";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using (Html.BeginForm("Create", "Account"))
+{
+    @Html.ValidationSummary(true)
+
+   
+    <h3>Đăng Ký</h3>
+    <div id="dangky">
+        <div>
+            Tên khách hàng
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tenkh)
+            @Html.ValidationMessageFor(model => model.tenkh)
+        </div>
+
+        <div>
+            Giới tính
+        </div>
+        <div>
+            <select name="phai">
+                <option value="Nam">Nam</option>
+                <option value="Nu">Nữ</option>
+            </select>
+        </div>
+
+        <div>
+            Địa chỉ
+        </div>
+        <div>
+            @Html.EditorFor(model => model.diachi)
+            @Html.ValidationMessageFor(model => model.diachi)
+        </div>
+
+        <div>
+            Email
+        </div>
+        <div>
+            @Html.EditorFor(model => model.email)
+            @Html.ValidationMessageFor(model => model.email)
+        </div>
+
+        <div>
+            Điện thoại
+        </div>
+        <div>
+            @Html.EditorFor(model => model.dienthoai)
+            @Html.ValidationMessageFor(model => model.dienthoai)
+        </div>
+
+        <div>
+            Tên đăng nhập
+        </div>
+        <div>
+            @Html.EditorFor(model => model.tenDN)
+            @Html.ValidationMessageFor(model => model.tenDN)
+        </div>
+
+        <div>
+            Mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.matkhau)
+            @Html.ValidationMessageFor(model => model.matkhau)
+        </div>
+
+        <div>
+            Xác nhận mật khẩu
+        </div>
+        <div>
+            @Html.EditorFor(model => model.ConfirmPassword)
+            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+        </div>
+
+        <p class="dangky">
+            <input class="btn_dangky" type="submit" value="Đăng Ký" />
+        </p>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

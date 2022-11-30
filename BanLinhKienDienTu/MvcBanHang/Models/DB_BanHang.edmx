@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BanHangModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="BanHangModelStoreContainer">
+          <EntitySet Name="congnghe" EntityType="BanHangModel.Store.congnghe" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="chitiet_donhang" EntityType="BanHangModel.Store.chitiet_donhang" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="chitiet_hoadon" EntityType="BanHangModel.Store.chitiet_hoadon" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="donhang" EntityType="BanHangModel.Store.donhang" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="dungluong" EntityType="BanHangModel.Store.dungluong" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="hangsanxuat" EntityType="BanHangModel.Store.hangsanxuat" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="hoadon" EntityType="BanHangModel.Store.hoadon" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="khachhang" EntityType="BanHangModel.Store.khachhang" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="loai" EntityType="BanHangModel.Store.loai" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="nhacungcap" EntityType="BanHangModel.Store.nhacungcap" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="nhanvien" EntityType="BanHangModel.Store.nhanvien" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="quangcao" EntityType="BanHangModel.Store.quangcao" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="sanpham" EntityType="BanHangModel.Store.sanpham" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="fk_ctdonhang_donhang" Association="BanHangModel.Store.fk_ctdonhang_donhang">
+            <End Role="donhang" EntitySet="donhang" />
+            <End Role="chitiet_donhang" EntitySet="chitiet_donhang" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ctdonhang_sanpham" Association="BanHangModel.Store.fk_ctdonhang_sanpham">
+            <End Role="sanpham" EntitySet="sanpham" />
+            <End Role="chitiet_donhang" EntitySet="chitiet_donhang" />
+          </AssociationSet>
+          <AssociationSet Name="fk_cthoadon_hoadon" Association="BanHangModel.Store.fk_cthoadon_hoadon">
+            <End Role="hoadon" EntitySet="hoadon" />
+            <End Role="chitiet_hoadon" EntitySet="chitiet_hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_cthoadon_sanpham" Association="BanHangModel.Store.fk_cthoadon_sanpham">
+            <End Role="sanpham" EntitySet="sanpham" />
+            <End Role="chitiet_hoadon" EntitySet="chitiet_hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_hoadon_khachhang" Association="BanHangModel.Store.fk_hoadon_khachhang">
+            <End Role="khachhang" EntitySet="khachhang" />
+            <End Role="hoadon" EntitySet="hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_hoadon_nhanvien" Association="BanHangModel.Store.fk_hoadon_nhanvien">
+            <End Role="nhanvien" EntitySet="nhanvien" />
+            <End Role="hoadon" EntitySet="hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_macn" Association="BanHangModel.Store.fk_sanpham_macn">
+            <End Role="congnghe" EntitySet="congnghe" />
+            <End Role="sanpham" EntitySet="sanpham" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_madl" Association="BanHangModel.Store.fk_sanpham_madl">
+            <End Role="dungluong" EntitySet="dungluong" />
+            <End Role="sanpham" EntitySet="sanpham" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_mahsx" Association="BanHangModel.Store.fk_sanpham_mahsx">
+            <End Role="hangsanxuat" EntitySet="hangsanxuat" />
+            <End Role="sanpham" EntitySet="sanpham" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_maloai" Association="BanHangModel.Store.fk_sanpham_maloai">
+            <End Role="loai" EntitySet="loai" />
+            <End Role="sanpham" EntitySet="sanpham" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_mancc" Association="BanHangModel.Store.fk_sanpham_mancc">
+            <End Role="nhacungcap" EntitySet="nhacungcap" />
+            <End Role="sanpham" EntitySet="sanpham" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="congnghe">
+          <Key>
+            <PropertyRef Name="macn" />
+          </Key>
+          <Property Name="macn" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="loaicn" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="chitiet_donhang">
+          <Key>
+            <PropertyRef Name="madh" />
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="madh" Type="int" Nullable="false" />
+          <Property Name="masp" Type="int" Nullable="false" />
+          <Property Name="soluong" Type="int" />
+          <Property Name="thanhtien" Type="money" />
+        </EntityType>
+        <EntityType Name="chitiet_hoadon">
+          <Key>
+            <PropertyRef Name="mahd" />
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="mahd" Type="int" Nullable="false" />
+          <Property Name="masp" Type="int" Nullable="false" />
+          <Property Name="soluong" Type="int" />
+          <Property Name="dongia" Type="money" />
+          <Property Name="thanhtien" Type="money" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="donhang">
+          <Key>
+            <PropertyRef Name="madh" />
+          </Key>
+          <Property Name="madh" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tennguoinhan" Type="nvarchar" MaxLength="30" />
+          <Property Name="diachinhan" Type="nvarchar" MaxLength="50" />
+          <Property Name="dienthoainhan" Type="char" MaxLength="11" />
+          <Property Name="dagiao" Type="bit" />
+        </EntityType>
+        <EntityType Name="dungluong">
+          <Key>
+            <PropertyRef Name="madl" />
+          </Key>
+          <Property Name="madl" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="loaidl" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="hangsanxuat">
+          <Key>
+            <PropertyRef Name="mahsx" />
+          </Key>
+          <Property Name="mahsx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tenhsx" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="hoadon">
+          <Key>
+            <PropertyRef Name="mahd" />
+          </Key>
+          <Property Name="mahd" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="makh" Type="int" Nullable="false" />
+          <Property Name="ngaydathang" Type="datetime" />
+          <Property Name="ngaygiaohang" Type="datetime" />
+          <Property Name="tennguoinhan" Type="nvarchar" MaxLength="30" />
+          <Property Name="diachinhan" Type="nvarchar" MaxLength="50" />
+          <Property Name="dienthoainhan" Type="char" MaxLength="11" />
+          <Property Name="httt" Type="bit" />
+          <Property Name="htgh" Type="bit" />
+          <Property Name="manv" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="khachhang">
+          <Key>
+            <PropertyRef Name="makh" />
+          </Key>
+          <Property Name="makh" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tenkh" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="phai" Type="nvarchar" Nullable="false" MaxLength="3" />
+          <Property Name="diachi" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="email" Type="char" MaxLength="50" />
+          <Property Name="dienthoai" Type="char" Nullable="false" MaxLength="11" />
+          <Property Name="tenDN" Type="ntext" Nullable="false" />
+          <Property Name="matkhau" Type="ntext" Nullable="false" />
+        </EntityType>
+        <EntityType Name="loai">
+          <Key>
+            <PropertyRef Name="maloai" />
+          </Key>
+          <Property Name="maloai" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tenloai" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="nhacungcap">
+          <Key>
+            <PropertyRef Name="mancc" />
+          </Key>
+          <Property Name="mancc" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tenncc" Type="nvarchar" MaxLength="30" />
+          <Property Name="diachi" Type="ntext" />
+          <Property Name="dienthoai" Type="char" MaxLength="11" />
+        </EntityType>
+        <EntityType Name="nhanvien">
+          <Key>
+            <PropertyRef Name="manv" />
+          </Key>
+          <Property Name="manv" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tennv" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="phai" Type="nvarchar" Nullable="false" MaxLength="3" />
+          <Property Name="diachi" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="cmnd" Type="char" Nullable="false" MaxLength="11" />
+          <Property Name="dienthoai" Type="char" Nullable="false" MaxLength="11" />
+          <Property Name="email" Type="char" MaxLength="50" />
+          <Property Name="tenDN" Type="ntext" />
+          <Property Name="matkhau" Type="ntext" Nullable="false" />
+        </EntityType>
+        <EntityType Name="quangcao">
+          <Key>
+            <PropertyRef Name="stt" />
+          </Key>
+          <Property Name="stt" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tencty" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="hinhminhhoa" Type="varchar" MaxLength="20" />
+          <Property Name="href" Type="varchar" MaxLength="100" />
+          <Property Name="ngaybatdau" Type="smalldatetime" />
+          <Property Name="ngayhethan" Type="smalldatetime" />
+        </EntityType>
+        <EntityType Name="sanpham">
+          <Key>
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="masp" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="tensp" Type="nvarchar" MaxLength="50" />
+          <Property Name="hinhsp" Type="char" MaxLength="50" />
+          <Property Name="mota" Type="ntext" />
+          <Property Name="kichco" Type="char" MaxLength="5" />
+          <Property Name="donvitinh" Type="nvarchar" MaxLength="5" />
+          <Property Name="dongia" Type="numeric" />
+          <Property Name="maloai" Type="int" Nullable="false" />
+          <Property Name="macn" Type="int" />
+          <Property Name="madl" Type="int" />
+          <Property Name="mancc" Type="int" Nullable="false" />
+          <Property Name="mahsx" Type="int" Nullable="false" />
+          <Property Name="ngaycapnhat" Type="datetime" />
+          <Property Name="soluong" Type="int" />
+          <Property Name="solanxem" Type="int" />
+        </EntityType>
+        <Association Name="fk_ctdonhang_donhang">
+          <End Role="donhang" Type="BanHangModel.Store.donhang" Multiplicity="1" />
+          <End Role="chitiet_donhang" Type="BanHangModel.Store.chitiet_donhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="donhang">
+              <PropertyRef Name="madh" />
+            </Principal>
+            <Dependent Role="chitiet_donhang">
+              <PropertyRef Name="madh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ctdonhang_sanpham">
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="1" />
+          <End Role="chitiet_donhang" Type="BanHangModel.Store.chitiet_donhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sanpham">
+              <PropertyRef Name="masp" />
+            </Principal>
+            <Dependent Role="chitiet_donhang">
+              <PropertyRef Name="masp" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_cthoadon_hoadon">
+          <End Role="hoadon" Type="BanHangModel.Store.hoadon" Multiplicity="1" />
+          <End Role="chitiet_hoadon" Type="BanHangModel.Store.chitiet_hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadon">
+              <PropertyRef Name="mahd" />
+            </Principal>
+            <Dependent Role="chitiet_hoadon">
+              <PropertyRef Name="mahd" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_cthoadon_sanpham">
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="1" />
+          <End Role="chitiet_hoadon" Type="BanHangModel.Store.chitiet_hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sanpham">
+              <PropertyRef Name="masp" />
+            </Principal>
+            <Dependent Role="chitiet_hoadon">
+              <PropertyRef Name="masp" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_hoadon_khachhang">
+          <End Role="khachhang" Type="BanHangModel.Store.khachhang" Multiplicity="1" />
+          <End Role="hoadon" Type="BanHangModel.Store.hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="khachhang">
+              <PropertyRef Name="makh" />
+            </Principal>
+            <Dependent Role="hoadon">
+              <PropertyRef Name="makh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_hoadon_nhanvien">
+          <End Role="nhanvien" Type="BanHangModel.Store.nhanvien" Multiplicity="1" />
+          <End Role="hoadon" Type="BanHangModel.Store.hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhanvien">
+              <PropertyRef Name="manv" />
+            </Principal>
+            <Dependent Role="hoadon">
+              <PropertyRef Name="manv" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_macn">
+          <End Role="congnghe" Type="BanHangModel.Store.congnghe" Multiplicity="0..1" />
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="congnghe">
+              <PropertyRef Name="macn" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="macn" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_madl">
+          <End Role="dungluong" Type="BanHangModel.Store.dungluong" Multiplicity="0..1" />
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dungluong">
+              <PropertyRef Name="madl" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="madl" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_mahsx">
+          <End Role="hangsanxuat" Type="BanHangModel.Store.hangsanxuat" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hangsanxuat">
+              <PropertyRef Name="mahsx" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="mahsx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_maloai">
+          <End Role="loai" Type="BanHangModel.Store.loai" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="loai">
+              <PropertyRef Name="maloai" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="maloai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_mancc">
+          <End Role="nhacungcap" Type="BanHangModel.Store.nhacungcap" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.Store.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhacungcap">
+              <PropertyRef Name="mancc" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="mancc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BanHangModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="BanHangEntities11" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="congnghes" EntityType="BanHangModel.congnghe" />
+          <EntitySet Name="chitiet_donhang" EntityType="BanHangModel.chitiet_donhang" />
+          <EntitySet Name="chitiet_hoadon" EntityType="BanHangModel.chitiet_hoadon" />
+          <EntitySet Name="donhangs" EntityType="BanHangModel.donhang" />
+          <EntitySet Name="dungluongs" EntityType="BanHangModel.dungluong" />
+          <EntitySet Name="hangsanxuats" EntityType="BanHangModel.hangsanxuat" />
+          <EntitySet Name="hoadons" EntityType="BanHangModel.hoadon" />
+          <EntitySet Name="khachhangs" EntityType="BanHangModel.khachhang" />
+          <EntitySet Name="loais" EntityType="BanHangModel.loai" />
+          <EntitySet Name="nhacungcaps" EntityType="BanHangModel.nhacungcap" />
+          <EntitySet Name="nhanviens" EntityType="BanHangModel.nhanvien" />
+          <EntitySet Name="quangcaos" EntityType="BanHangModel.quangcao" />
+          <EntitySet Name="sanphams" EntityType="BanHangModel.sanpham" />
+          <AssociationSet Name="fk_sanpham_macn" Association="BanHangModel.fk_sanpham_macn">
+            <End Role="congnghe" EntitySet="congnghes" />
+            <End Role="sanpham" EntitySet="sanphams" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ctdonhang_donhang" Association="BanHangModel.fk_ctdonhang_donhang">
+            <End Role="donhang" EntitySet="donhangs" />
+            <End Role="chitiet_donhang" EntitySet="chitiet_donhang" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ctdonhang_sanpham" Association="BanHangModel.fk_ctdonhang_sanpham">
+            <End Role="sanpham" EntitySet="sanphams" />
+            <End Role="chitiet_donhang" EntitySet="chitiet_donhang" />
+          </AssociationSet>
+          <AssociationSet Name="fk_cthoadon_hoadon" Association="BanHangModel.fk_cthoadon_hoadon">
+            <End Role="hoadon" EntitySet="hoadons" />
+            <End Role="chitiet_hoadon" EntitySet="chitiet_hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_cthoadon_sanpham" Association="BanHangModel.fk_cthoadon_sanpham">
+            <End Role="sanpham" EntitySet="sanphams" />
+            <End Role="chitiet_hoadon" EntitySet="chitiet_hoadon" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_madl" Association="BanHangModel.fk_sanpham_madl">
+            <End Role="dungluong" EntitySet="dungluongs" />
+            <End Role="sanpham" EntitySet="sanphams" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_mahsx" Association="BanHangModel.fk_sanpham_mahsx">
+            <End Role="hangsanxuat" EntitySet="hangsanxuats" />
+            <End Role="sanpham" EntitySet="sanphams" />
+          </AssociationSet>
+          <AssociationSet Name="fk_hoadon_khachhang" Association="BanHangModel.fk_hoadon_khachhang">
+            <End Role="khachhang" EntitySet="khachhangs" />
+            <End Role="hoadon" EntitySet="hoadons" />
+          </AssociationSet>
+          <AssociationSet Name="fk_hoadon_nhanvien" Association="BanHangModel.fk_hoadon_nhanvien">
+            <End Role="nhanvien" EntitySet="nhanviens" />
+            <End Role="hoadon" EntitySet="hoadons" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_maloai" Association="BanHangModel.fk_sanpham_maloai">
+            <End Role="loai" EntitySet="loais" />
+            <End Role="sanpham" EntitySet="sanphams" />
+          </AssociationSet>
+          <AssociationSet Name="fk_sanpham_mancc" Association="BanHangModel.fk_sanpham_mancc">
+            <End Role="nhacungcap" EntitySet="nhacungcaps" />
+            <End Role="sanpham" EntitySet="sanphams" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="congnghe">
+          <Key>
+            <PropertyRef Name="macn" />
+          </Key>
+          <Property Name="macn" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="loaicn" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="sanphams" Relationship="BanHangModel.fk_sanpham_macn" FromRole="congnghe" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="chitiet_donhang">
+          <Key>
+            <PropertyRef Name="madh" />
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="madh" Type="Int32" Nullable="false" />
+          <Property Name="masp" Type="Int32" Nullable="false" />
+          <Property Name="soluong" Type="Int32" />
+          <Property Name="thanhtien" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="donhang" Relationship="BanHangModel.fk_ctdonhang_donhang" FromRole="chitiet_donhang" ToRole="donhang" />
+          <NavigationProperty Name="sanpham" Relationship="BanHangModel.fk_ctdonhang_sanpham" FromRole="chitiet_donhang" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="chitiet_hoadon">
+          <Key>
+            <PropertyRef Name="mahd" />
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="mahd" Type="Int32" Nullable="false" />
+          <Property Name="masp" Type="Int32" Nullable="false" />
+          <Property Name="soluong" Type="Int32" />
+          <Property Name="dongia" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="thanhtien" Type="Decimal" Precision="19" Scale="4" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="hoadon" Relationship="BanHangModel.fk_cthoadon_hoadon" FromRole="chitiet_hoadon" ToRole="hoadon" />
+          <NavigationProperty Name="sanpham" Relationship="BanHangModel.fk_cthoadon_sanpham" FromRole="chitiet_hoadon" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="donhang">
+          <Key>
+            <PropertyRef Name="madh" />
+          </Key>
+          <Property Name="madh" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tennguoinhan" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="diachinhan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="dienthoainhan" Type="String" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="dagiao" Type="Boolean" />
+          <NavigationProperty Name="chitiet_donhang" Relationship="BanHangModel.fk_ctdonhang_donhang" FromRole="donhang" ToRole="chitiet_donhang" />
+        </EntityType>
+        <EntityType Name="dungluong">
+          <Key>
+            <PropertyRef Name="madl" />
+          </Key>
+          <Property Name="madl" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="loaidl" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="sanphams" Relationship="BanHangModel.fk_sanpham_madl" FromRole="dungluong" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="hangsanxuat">
+          <Key>
+            <PropertyRef Name="mahsx" />
+          </Key>
+          <Property Name="mahsx" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tenhsx" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="sanphams" Relationship="BanHangModel.fk_sanpham_mahsx" FromRole="hangsanxuat" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="hoadon">
+          <Key>
+            <PropertyRef Name="mahd" />
+          </Key>
+          <Property Name="mahd" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="makh" Type="Int32" Nullable="false" />
+          <Property Name="ngaydathang" Type="DateTime" Precision="3" />
+          <Property Name="ngaygiaohang" Type="DateTime" Precision="3" />
+          <Property Name="tennguoinhan" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="diachinhan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="dienthoainhan" Type="String" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="httt" Type="Boolean" />
+          <Property Name="htgh" Type="Boolean" />
+          <Property Name="manv" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="chitiet_hoadon" Relationship="BanHangModel.fk_cthoadon_hoadon" FromRole="hoadon" ToRole="chitiet_hoadon" />
+          <NavigationProperty Name="khachhang" Relationship="BanHangModel.fk_hoadon_khachhang" FromRole="hoadon" ToRole="khachhang" />
+          <NavigationProperty Name="nhanvien" Relationship="BanHangModel.fk_hoadon_nhanvien" FromRole="hoadon" ToRole="nhanvien" />
+        </EntityType>
+        <EntityType Name="khachhang">
+          <Key>
+            <PropertyRef Name="makh" />
+          </Key>
+          <Property Name="makh" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tenkh" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="phai" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="false" />
+          <Property Name="diachi" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="email" Type="String" MaxLength="50" Unicode="false" FixedLength="true" />
+          <Property Name="dienthoai" Type="String" Nullable="false" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="tenDN" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="matkhau" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="hoadons" Relationship="BanHangModel.fk_hoadon_khachhang" FromRole="khachhang" ToRole="hoadon" />
+        </EntityType>
+        <EntityType Name="loai">
+          <Key>
+            <PropertyRef Name="maloai" />
+          </Key>
+          <Property Name="maloai" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tenloai" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="sanphams" Relationship="BanHangModel.fk_sanpham_maloai" FromRole="loai" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="nhacungcap">
+          <Key>
+            <PropertyRef Name="mancc" />
+          </Key>
+          <Property Name="mancc" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tenncc" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="diachi" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="dienthoai" Type="String" MaxLength="11" Unicode="false" FixedLength="true" />
+          <NavigationProperty Name="sanphams" Relationship="BanHangModel.fk_sanpham_mancc" FromRole="nhacungcap" ToRole="sanpham" />
+        </EntityType>
+        <EntityType Name="nhanvien">
+          <Key>
+            <PropertyRef Name="manv" />
+          </Key>
+          <Property Name="manv" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tennv" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="phai" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="false" />
+          <Property Name="diachi" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="cmnd" Type="String" Nullable="false" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="dienthoai" Type="String" Nullable="false" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="email" Type="String" MaxLength="50" Unicode="false" FixedLength="true" />
+          <Property Name="tenDN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="matkhau" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="hoadons" Relationship="BanHangModel.fk_hoadon_nhanvien" FromRole="nhanvien" ToRole="hoadon" />
+        </EntityType>
+        <EntityType Name="quangcao">
+          <Key>
+            <PropertyRef Name="stt" />
+          </Key>
+          <Property Name="stt" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tencty" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="hinhminhhoa" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="href" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="ngaybatdau" Type="DateTime" Precision="0" />
+          <Property Name="ngayhethan" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="sanpham">
+          <Key>
+            <PropertyRef Name="masp" />
+          </Key>
+          <Property Name="masp" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="tensp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="hinhsp" Type="String" MaxLength="50" Unicode="false" FixedLength="true" />
+          <Property Name="mota" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="kichco" Type="String" MaxLength="5" Unicode="false" FixedLength="true" />
+          <Property Name="donvitinh" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+          <Property Name="dongia" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="maloai" Type="Int32" Nullable="false" />
+          <Property Name="macn" Type="Int32" />
+          <Property Name="madl" Type="Int32" />
+          <Property Name="mancc" Type="Int32" Nullable="false" />
+          <Property Name="mahsx" Type="Int32" Nullable="false" />
+          <Property Name="ngaycapnhat" Type="DateTime" Precision="3" />
+          <Property Name="soluong" Type="Int32" />
+          <Property Name="solanxem" Type="Int32" />
+          <NavigationProperty Name="congnghe" Relationship="BanHangModel.fk_sanpham_macn" FromRole="sanpham" ToRole="congnghe" />
+          <NavigationProperty Name="chitiet_donhang" Relationship="BanHangModel.fk_ctdonhang_sanpham" FromRole="sanpham" ToRole="chitiet_donhang" />
+          <NavigationProperty Name="chitiet_hoadon" Relationship="BanHangModel.fk_cthoadon_sanpham" FromRole="sanpham" ToRole="chitiet_hoadon" />
+          <NavigationProperty Name="dungluong" Relationship="BanHangModel.fk_sanpham_madl" FromRole="sanpham" ToRole="dungluong" />
+          <NavigationProperty Name="hangsanxuat" Relationship="BanHangModel.fk_sanpham_mahsx" FromRole="sanpham" ToRole="hangsanxuat" />
+          <NavigationProperty Name="loai" Relationship="BanHangModel.fk_sanpham_maloai" FromRole="sanpham" ToRole="loai" />
+          <NavigationProperty Name="nhacungcap" Relationship="BanHangModel.fk_sanpham_mancc" FromRole="sanpham" ToRole="nhacungcap" />
+        </EntityType>
+        <Association Name="fk_sanpham_macn">
+          <End Role="congnghe" Type="BanHangModel.congnghe" Multiplicity="0..1" />
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="congnghe">
+              <PropertyRef Name="macn" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="macn" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ctdonhang_donhang">
+          <End Role="donhang" Type="BanHangModel.donhang" Multiplicity="1" />
+          <End Role="chitiet_donhang" Type="BanHangModel.chitiet_donhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="donhang">
+              <PropertyRef Name="madh" />
+            </Principal>
+            <Dependent Role="chitiet_donhang">
+              <PropertyRef Name="madh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ctdonhang_sanpham">
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="1" />
+          <End Role="chitiet_donhang" Type="BanHangModel.chitiet_donhang" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sanpham">
+              <PropertyRef Name="masp" />
+            </Principal>
+            <Dependent Role="chitiet_donhang">
+              <PropertyRef Name="masp" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_cthoadon_hoadon">
+          <End Role="hoadon" Type="BanHangModel.hoadon" Multiplicity="1" />
+          <End Role="chitiet_hoadon" Type="BanHangModel.chitiet_hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hoadon">
+              <PropertyRef Name="mahd" />
+            </Principal>
+            <Dependent Role="chitiet_hoadon">
+              <PropertyRef Name="mahd" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_cthoadon_sanpham">
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="1" />
+          <End Role="chitiet_hoadon" Type="BanHangModel.chitiet_hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sanpham">
+              <PropertyRef Name="masp" />
+            </Principal>
+            <Dependent Role="chitiet_hoadon">
+              <PropertyRef Name="masp" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_madl">
+          <End Role="dungluong" Type="BanHangModel.dungluong" Multiplicity="0..1" />
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dungluong">
+              <PropertyRef Name="madl" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="madl" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_mahsx">
+          <End Role="hangsanxuat" Type="BanHangModel.hangsanxuat" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hangsanxuat">
+              <PropertyRef Name="mahsx" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="mahsx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_hoadon_khachhang">
+          <End Role="khachhang" Type="BanHangModel.khachhang" Multiplicity="1" />
+          <End Role="hoadon" Type="BanHangModel.hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="khachhang">
+              <PropertyRef Name="makh" />
+            </Principal>
+            <Dependent Role="hoadon">
+              <PropertyRef Name="makh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_hoadon_nhanvien">
+          <End Role="nhanvien" Type="BanHangModel.nhanvien" Multiplicity="1" />
+          <End Role="hoadon" Type="BanHangModel.hoadon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhanvien">
+              <PropertyRef Name="manv" />
+            </Principal>
+            <Dependent Role="hoadon">
+              <PropertyRef Name="manv" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_maloai">
+          <End Role="loai" Type="BanHangModel.loai" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="loai">
+              <PropertyRef Name="maloai" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="maloai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_sanpham_mancc">
+          <End Role="nhacungcap" Type="BanHangModel.nhacungcap" Multiplicity="1" />
+          <End Role="sanpham" Type="BanHangModel.sanpham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhacungcap">
+              <PropertyRef Name="mancc" />
+            </Principal>
+            <Dependent Role="sanpham">
+              <PropertyRef Name="mancc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BanHangModelStoreContainer" CdmEntityContainer="BanHangEntities11">
+          <EntitySetMapping Name="congnghes">
+            <EntityTypeMapping TypeName="BanHangModel.congnghe">
+              <MappingFragment StoreEntitySet="congnghe">
+                <ScalarProperty Name="macn" ColumnName="macn" />
+                <ScalarProperty Name="loaicn" ColumnName="loaicn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="chitiet_donhang">
+            <EntityTypeMapping TypeName="BanHangModel.chitiet_donhang">
+              <MappingFragment StoreEntitySet="chitiet_donhang">
+                <ScalarProperty Name="madh" ColumnName="madh" />
+                <ScalarProperty Name="masp" ColumnName="masp" />
+                <ScalarProperty Name="soluong" ColumnName="soluong" />
+                <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="chitiet_hoadon">
+            <EntityTypeMapping TypeName="BanHangModel.chitiet_hoadon">
+              <MappingFragment StoreEntitySet="chitiet_hoadon">
+                <ScalarProperty Name="mahd" ColumnName="mahd" />
+                <ScalarProperty Name="masp" ColumnName="masp" />
+                <ScalarProperty Name="soluong" ColumnName="soluong" />
+                <ScalarProperty Name="dongia" ColumnName="dongia" />
+                <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="donhangs">
+            <EntityTypeMapping TypeName="BanHangModel.donhang">
+              <MappingFragment StoreEntitySet="donhang">
+                <ScalarProperty Name="madh" ColumnName="madh" />
+                <ScalarProperty Name="tennguoinhan" ColumnName="tennguoinhan" />
+                <ScalarProperty Name="diachinhan" ColumnName="diachinhan" />
+                <ScalarProperty Name="dienthoainhan" ColumnName="dienthoainhan" />
+                <ScalarProperty Name="dagiao" ColumnName="dagiao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dungluongs">
+            <EntityTypeMapping TypeName="BanHangModel.dungluong">
+              <MappingFragment StoreEntitySet="dungluong">
+                <ScalarProperty Name="madl" ColumnName="madl" />
+                <ScalarProperty Name="loaidl" ColumnName="loaidl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hangsanxuats">
+            <EntityTypeMapping TypeName="BanHangModel.hangsanxuat">
+              <MappingFragment StoreEntitySet="hangsanxuat">
+                <ScalarProperty Name="mahsx" ColumnName="mahsx" />
+                <ScalarProperty Name="tenhsx" ColumnName="tenhsx" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hoadons">
+            <EntityTypeMapping TypeName="BanHangModel.hoadon">
+              <MappingFragment StoreEntitySet="hoadon">
+                <ScalarProperty Name="mahd" ColumnName="mahd" />
+                <ScalarProperty Name="makh" ColumnName="makh" />
+                <ScalarProperty Name="ngaydathang" ColumnName="ngaydathang" />
+                <ScalarProperty Name="ngaygiaohang" ColumnName="ngaygiaohang" />
+                <ScalarProperty Name="tennguoinhan" ColumnName="tennguoinhan" />
+                <ScalarProperty Name="diachinhan" ColumnName="diachinhan" />
+                <ScalarProperty Name="dienthoainhan" ColumnName="dienthoainhan" />
+                <ScalarProperty Name="httt" ColumnName="httt" />
+                <ScalarProperty Name="htgh" ColumnName="htgh" />
+                <ScalarProperty Name="manv" ColumnName="manv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="khachhangs">
+            <EntityTypeMapping TypeName="BanHangModel.khachhang">
+              <MappingFragment StoreEntitySet="khachhang">
+                <ScalarProperty Name="makh" ColumnName="makh" />
+                <ScalarProperty Name="tenkh" ColumnName="tenkh" />
+                <ScalarProperty Name="phai" ColumnName="phai" />
+                <ScalarProperty Name="diachi" ColumnName="diachi" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+                <ScalarProperty Name="tenDN" ColumnName="tenDN" />
+                <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="loais">
+            <EntityTypeMapping TypeName="BanHangModel.loai">
+              <MappingFragment StoreEntitySet="loai">
+                <ScalarProperty Name="maloai" ColumnName="maloai" />
+                <ScalarProperty Name="tenloai" ColumnName="tenloai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="nhacungcaps">
+            <EntityTypeMapping TypeName="BanHangModel.nhacungcap">
+              <MappingFragment StoreEntitySet="nhacungcap">
+                <ScalarProperty Name="mancc" ColumnName="mancc" />
+                <ScalarProperty Name="tenncc" ColumnName="tenncc" />
+                <ScalarProperty Name="diachi" ColumnName="diachi" />
+                <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="nhanviens">
+            <EntityTypeMapping TypeName="BanHangModel.nhanvien">
+              <MappingFragment StoreEntitySet="nhanvien">
+                <ScalarProperty Name="manv" ColumnName="manv" />
+                <ScalarProperty Name="tennv" ColumnName="tennv" />
+                <ScalarProperty Name="phai" ColumnName="phai" />
+                <ScalarProperty Name="diachi" ColumnName="diachi" />
+                <ScalarProperty Name="cmnd" ColumnName="cmnd" />
+                <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="tenDN" ColumnName="tenDN" />
+                <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="quangcaos">
+            <EntityTypeMapping TypeName="BanHangModel.quangcao">
+              <MappingFragment StoreEntitySet="quangcao">
+                <ScalarProperty Name="stt" ColumnName="stt" />
+                <ScalarProperty Name="tencty" ColumnName="tencty" />
+                <ScalarProperty Name="hinhminhhoa" ColumnName="hinhminhhoa" />
+                <ScalarProperty Name="href" ColumnName="href" />
+                <ScalarProperty Name="ngaybatdau" ColumnName="ngaybatdau" />
+                <ScalarProperty Name="ngayhethan" ColumnName="ngayhethan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sanphams">
+            <EntityTypeMapping TypeName="BanHangModel.sanpham">
+              <MappingFragment StoreEntitySet="sanpham">
+                <ScalarProperty Name="masp" ColumnName="masp" />
+                <ScalarProperty Name="tensp" ColumnName="tensp" />
+                <ScalarProperty Name="hinhsp" ColumnName="hinhsp" />
+                <ScalarProperty Name="mota" ColumnName="mota" />
+                <ScalarProperty Name="kichco" ColumnName="kichco" />
+                <ScalarProperty Name="donvitinh" ColumnName="donvitinh" />
+                <ScalarProperty Name="dongia" ColumnName="dongia" />
+                <ScalarProperty Name="maloai" ColumnName="maloai" />
+                <ScalarProperty Name="macn" ColumnName="macn" />
+                <ScalarProperty Name="madl" ColumnName="madl" />
+                <ScalarProperty Name="mancc" ColumnName="mancc" />
+                <ScalarProperty Name="mahsx" ColumnName="mahsx" />
+                <ScalarProperty Name="ngaycapnhat" ColumnName="ngaycapnhat" />
+                <ScalarProperty Name="soluong" ColumnName="soluong" />
+                <ScalarProperty Name="solanxem" ColumnName="solanxem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

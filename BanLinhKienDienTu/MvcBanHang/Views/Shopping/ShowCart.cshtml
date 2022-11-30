@@ -1,0 +1,62 @@
+﻿@using MvcBanHang.ViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('.RemoveLink').click(function () {            
+            var x = $(this).attr("data-id");
+            if (confirm("Bạn muốn bỏ sản phẩm này khỏi giỏ hàng?")) {
+                $.post('@Url.Action("RemoveCart", "Shopping")', { id: x }, function () {
+                    window.location.href = "ShowCart";
+                    $("#row-" + x).remove();
+                });
+            }
+        })
+    })
+</script>
+<h3>Giỏ Hàng</h3>
+@if (Session["Cart"] != null)
+{
+    var _CartSession = (List<CartViewModel>)Session["Cart"];
+    var Total = _CartSession.Sum(m => m.Product.dongia * m.Quantity);
+    <table>
+        <thead>
+            <tr>
+                <th>Sản Phẩm</th>
+                <th>Đơn Giá</th>
+                <th>Số Lượng</th>
+                <th>Thành Tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in _CartSession)
+            {
+                var SubTotal = item.Quantity * item.Product.dongia;
+                <tr id="row-@item.Product.masp">
+                    <td>@item.Product.tensp</td>
+                    <td>@string.Format("{0:0,0 VNĐ}", item.Product.dongia).Replace(",", ".")</td>
+                    <td>@item.Quantity</td>
+                    <td>@string.Format("{0:0,0 VNĐ}", SubTotal).Replace(",", ".")</td>
+                    <td><a href="#" class="RemoveLink" data-id="@item.Product.masp">Xóa</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>     
+    <div class="tongtien">
+        Tổng Tiền : @string.Format("{0:0,0 VNĐ}", @Total).Replace(",", ".")
+    </div>   
+    <div id="chucnang">
+        <a class="dathang" href="@Url.Action("Create", "Shopping")">Đặt Hàng</a>
+        <a class="back1" href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+    </div>
+}
+else
+{ 
+    <h1 class="thongbao">Giỏ hàng trống</h1>
+    <p class="back2">
+        <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+    </p>
+    
+}

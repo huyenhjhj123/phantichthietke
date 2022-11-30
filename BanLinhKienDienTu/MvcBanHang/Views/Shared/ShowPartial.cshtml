@@ -1,0 +1,61 @@
+﻿@helper Truncate(string input, int length)
+{
+    if (input.Length <= length)
+    {
+    @input
+    }
+    else
+    {
+    @input.Substring(0, length)<text>...</text>
+    }
+}
+
+@model MvcBanHang.ViewModel.ProductViewModel
+@if (Request.IsAuthenticated)
+{
+    <script type="text/javascript">
+        function XoaSanPham(id) {
+            if (confirm("Bạn muốn xóa sản phẩm này?")) {
+                $.post('@Url.Action("Delete", "Product")', { id: id },
+                    function (data) {
+                        if (data.Status == "1") {
+                            $("#row-" + id).remove();
+                        }
+                    });
+            }
+            return false;
+        };
+    </script>
+    <div>
+        @Html.ActionLink("Thêm Mới", "Create")
+    </div>
+}
+
+<!-- Products -->
+<div class="products">
+    <ul>
+        @foreach (var item in Model.sanphams.Take(Model.soluongsp))
+        {
+            <li>
+                <div class="product">
+                    <a href="~/Product/Details/@item.masp" class="info">
+                        <span class="holder">
+                            <img src="@Url.Content("~/Content/Sanpham/" + @item.hinhsp)" alt="" />
+                            <span class="book-name">@Truncate(item.tensp, 12)</span>
+                            <span class="price">@string.Format("{0:0,0 VNĐ}", item.dongia).Replace(",", ".")</span>
+                        </span>
+                    </a>
+                    <a href="@Url.Action("AddToCart", "Shopping", new { id = item.masp }, null)" class="buy-btn">Mua Sản Phẩm</a>
+                </div>
+                @if (Request.IsAuthenticated)
+                {
+                    <div>
+                        @Html.ActionLink("Sửa", "Edit", new { id = item.masp })
+                        <button onclick="XoaSanPham('@item.masp');" value="Xoa" >Xóa</button>
+                    </div>
+                }
+            </li>          
+        }
+    </ul>
+</div>
+<!-- End Products -->

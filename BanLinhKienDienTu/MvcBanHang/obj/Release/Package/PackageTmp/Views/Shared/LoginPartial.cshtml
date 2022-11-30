@@ -1,0 +1,55 @@
+@{if (Request.IsAuthenticated)
+  {
+    <div id="login_admin">
+        <p class="quantri">
+            @Html.ActionLink("Trang Quản Trị", "Index", "Account")
+        </p>
+        <p class="thoat">
+            @Html.ActionLink("Thoát", "LogOff", "Account")
+        </p>
+        <p class="doimk">
+            @Html.ActionLink("Đổi mật khẩu", "ChangePass", "Account")
+        </p>
+        <p class="qly_sp">
+            @Html.ActionLink("Quản Lý Sản Phẩm", "Index", "Product")
+        </p>
+        <p class="qly_loai">
+            @Html.ActionLink("Quản Lý Loại Sản Phẩm", "Index", "Category")
+        </p>
+        <p class="qly_dh">
+            @Html.ActionLink("Quản lý Đơn Hàng", "Index", "Shopping")
+        </p>
+    </div> 
+  }
+  else
+  {   
+    <div id="login-details">
+        <div class="login">
+            @if (HttpContext.Current.Session["KhachHang"] != null)
+            {             
+                <p class="dangxuat">
+                    @Html.ActionLink("Dang Xuat", "LogOut", "Customer")
+                </p>
+            }
+            else
+            {
+                <p class="dangnhap">
+                    @Html.ActionLink("Dang Nhap", "Index", "Customer")
+                </p>                        
+            }
+            <p class="dangky">
+                @Html.ActionLink("Dang Ky", "Register", "Customer")
+            </p>
+        </div>
+        <p>Welcome, <a href="#" id="user">HungNguyen</a></p>
+        <p>
+            <a href="@Url.Action("ShowCart", "Shopping")" class="cart">
+                <img src="~/Content/Layout/css/Image/cart-icon.png" />
+                Gio hang
+            </a>
+        </p>
+    </div>
+  } 
+}
+
+

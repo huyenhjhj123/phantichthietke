@@ -1,0 +1,23 @@
+﻿
+body {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f1f1f1;
+}
+
+.body {
+    background: #fff;
+    width: 88%;
+    margin-left: 6%;
+    border-radius: 2%;
+}
+
+.main {
+    margin: 10px;
+    width: 74%;
+}
+
+.sidebar {
+    margin-top: 10px;
+    width: 23%;
+}

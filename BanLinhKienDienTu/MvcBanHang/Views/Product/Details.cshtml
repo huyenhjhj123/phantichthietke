@@ -1,0 +1,27 @@
+﻿@model MvcBanHang.Models.sanpham
+@using MvcBanHang.ViewModel
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<h3>@Model.tensp</h3>
+<div id="detail">
+    <img src="~/Content/Sanpham/@Url.Content("~/" + Model.hinhsp)"/>
+    <div class="info">
+        <span>Hãng sản xuất :  @Model.hangsanxuat.tenhsx</span><br />
+        <span>Công nghệ : @Model.congnghe.loaicn</span><br />
+        <span>Dung lượng : @Model.dungluong.loaidl</span><br />
+        <span>Kích cỡ : @Model.kichco</span><br />
+        <span>Giá :  @string.Format("{0:0,0 VNĐ}", Model.dongia).Replace(",", ".")</span>
+    </div>
+</div>
+<div class="button">
+    <a href="@Url.Action("AddToCart", "Shopping", new { id = Model.masp }, null)" >Mua Sản Phẩm</a>
+</div>
+<div class="mota">
+    <span>@Model.mota</span>
+</div>
+
+<h3>Sản phẩm cùng loại</h3>
+@Html.Partial("ShowPartial", new ProductViewModel() { soluongsp = 12, sanphams = (IEnumerable<MvcBanHang.Models.sanpham>)ViewBag.SPcungLoai })

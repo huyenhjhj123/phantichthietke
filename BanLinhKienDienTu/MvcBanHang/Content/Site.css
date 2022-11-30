@@ -1,0 +1,14 @@
+﻿
+.mainMenu {
+    background: #4f86f8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+    .mainMenu a {
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: bold;       
+        padding: 20px;
+        border-right: 1px solid #fff;
+    }

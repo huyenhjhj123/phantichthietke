@@ -1,0 +1,9 @@
+﻿@using MvcBanHang.ViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<h3>Sản phẩm mới</h3>
+    @Html.Partial("ShowPartial", new ProductViewModel() { soluongsp=12, sanphams=@Model })
+    @Html.Partial("BestSellersPartial", new ProductViewModel() { soluongsp=8, sanphams=(IEnumerable<MvcBanHang.Models.sanpham>)ViewBag.BestSellsers })

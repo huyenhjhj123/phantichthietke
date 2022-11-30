@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MvcBanHang.Models.loai>
+
+<li>
+    <h4>Loại Sản Phẩm</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="~/Category/CategoryByID/@item.maloai">@item.tenloai</a>
+            </li>
+        }     
+    </ul>
+</li>

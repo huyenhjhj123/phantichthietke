@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link href="~/Content/Layout/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/Content/Layout/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="~/Content/Layout/js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="~/Content/Layout/js/functions.js"></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <div id="header" class="shell">
+        <!--Logo-->
+     
+        <!--End Logo-->
+        <!-- Navigation -->
+        @Html.Partial("MenuPartial")
+        <!-- End Navigation -->
+        <div class="cl">&nbsp;</div>
+        <!-- Login-details -->
+        @Html.Partial("LoginPartial")
+        <!-- End Login-details -->
+    </div>
+    <!-- End Header -->
+    <!-- Slider -->
+    @Html.Partial("SliderPartial")
+    <!-- End Slider -->
+    <!-- Main -->
+    <div id="main" class="shell">
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ul class="categories">
+                <!--Categories-->
+                @Html.Action("GetCategory", "Category")
+                <!--End Categories-->
+                <!--Manufacture-->
+                @Html.Action("GetManufacture", "Manufacture")
+                <!--End Manufacture-->
+            </ul>
+        </div>
+        <!-- End Sidebar -->
+        <!-- Content -->
+        <div id="content">
+            @RenderBody()                                         
+        </div>
+        <!-- End Content -->
+        <div class="cl">&nbsp;</div>
+    </div>
+    <!-- End Main -->
+    <!-- Footer -->
+    @Html.Partial("FooterPartial")
+    <!-- End Footer -->
+
+         @RenderSection("scripts", required: false)
+</body>
+</html>

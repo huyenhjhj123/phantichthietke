@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MvcBanHang.Models.loai>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('.RemoveLink').click(function () {
+            var x = $(this).attr("data-id");
+            if (confirm("Bạn muốn xóa loại sản phẩm này?")) {
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Delete", "Category")',
+                    data: { id: x }
+                });
+                $("#row-" + x).remove();
+            }
+        })
+    })   
+</script>
+<h3>Quản lý loại sản phẩm</h3>
+<p>
+    @Html.ActionLink("Thêm mới", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Tên loại sản phẩm
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr id="row-@item.maloai">
+            <td>
+                @Html.DisplayFor(modelItem => item.tenloai)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.maloai }) |    
+            <a href="#" class="RemoveLink" data-id="@item.maloai">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>
+<p class="back2">
+    <a href="@Url.Action("Index", "Product")">Trở về Trang Chủ</a>
+</p>

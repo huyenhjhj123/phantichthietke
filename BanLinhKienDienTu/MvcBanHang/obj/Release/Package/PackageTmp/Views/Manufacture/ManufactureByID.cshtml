@@ -1,0 +1,25 @@
+﻿
+@using MvcBanHang.ViewModel
+
+
+@{
+    ViewBag.Title = "ManufactureByID";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<script>
+    function XoaSanPham(id) {
+        if (confirm("Bạn muốn xóa sản phẩm này ?")) {
+            $.post('@Url.Action("Delete", "Product")', { id: id },
+                    function (data) {
+                        if (data.Status == "1") {
+                            $("#row-" + id).remove();
+                        }
+                    });
+        }
+        return false;
+    };
+</script>
+
+<h3>@ViewBag.Tenhangsx</h3>
+@Html.Partial("ShowPartial", new ProductViewModel() { soluongsp=20, sanphams=@Model })
